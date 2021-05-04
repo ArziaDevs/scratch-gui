@@ -318,4 +318,23 @@ export default [
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
     }
+{
+        name: (
+            <FormattedMessage
+                defaultMessage="Custom Extension"
+                description="Name of custom extension category"
+                id="tw.customExtension.name"
+            />
+        ),
+        extensionId: '',
+        iconURL: customExtensionIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Load custom extensions from URLs. For developers."
+                description="Description of custom extension category"
+                id="tw.customExtension.description"
+            />
+        ),
+        featured: true
+    }
 ];
